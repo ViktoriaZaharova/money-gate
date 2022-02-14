@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "Opium";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Opium/Opium.eot");
+  src: url("../fonts/Opium/Opium.eot?#iefix") format("embedded-opentype"), url("../fonts/Opium/Opium.woff") format("woff"), url("../fonts/Opium/Opium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Opium";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Opium/Opium-bold.eot");
+  src: url("../fonts/Opium/Opium-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Opium/Opium-bold.woff") format("woff"), url("../fonts/Opium/Opium-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Circe";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Circe/Circe-Light.eot");
+  src: url("../fonts/Circe/Circe-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-Light.woff") format("woff"), url("../fonts/Circe/Circe-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Circe";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Circe/Circe-Regular.eot");
+  src: url("../fonts/Circe/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-Regular.woff") format("woff"), url("../fonts/Circe/Circe-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Circe";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Circe/Circe-Bold.eot");
+  src: url("../fonts/Circe/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-Bold.woff") format("woff"), url("../fonts/Circe/Circe-Bold.ttf") format("truetype"); }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: normal;
+  font-family: "Circe", sans-serif;
+  font-weight: normal;
+  background: #fff;
+  color: #3f4b67; }
+
+html, body {
+  overflow-x: hidden; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.text-center {
+  text-align: center; }
+
+a {
+  display: block;
+  text-decoration: none;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  outline: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
+input, textarea, select {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Circe", sans-serif;
+  border: none;
+    border-radius: 0;
+  width: 100%; }
+  input:hover, textarea:hover, select:hover {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
+label {
+  display: block;
+  width: 100%; }
+
+button, .btn {
+  outline: none;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  cursor: pointer;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: "Circe", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+    border-radius: 0; }
+  button:hover, button:focus, .btn:hover, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+
+strong, b {
+  font-weight: bold;
+  display: inline-block; }
+
+.my-ul {
+  list-style: none; }
+
+h1 {
+  font-size: 133px;
+  color: #845a38;
+  letter-spacing: -2.66px;
+  font-family: "Opium", sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto 28px;
+  text-align: center;
+  width: 100%; }
+  h1 br {
+    display: none; }
+
+h2 {
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Opium", sans-serif;
+  text-transform: uppercase; }
+
+.container {
+  max-width: 1375px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative; }
+
+.box-text {
+  text-align: center;
+  line-height: 1.33;
+  font-size: 30px;
+  font-weight: 300;
+  color: #596d93; }
+  .box-text p {
+    margin: 0 0 50px; }
+    .box-text p:last-child {
+      margin: 0; }
+
+.slick-slider {
+  width: 100%; }
+
+.slick-slide {
+  outline: none; }
+
+.slick-dots {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 30px auto 0; }
+  .slick-dots li {
+    width: 16px;
+    height: 16px;
+    margin: 0 7px 0 0;
+    background: rgba(132, 90, 56, 0.5);
+    cursor: pointer;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    border-radius: 50%; }
+    .slick-dots li:last-child {
+      margin: 0; }
+    .slick-dots li button {
+      display: none; }
+  .slick-dots .slick-active {
+    background: #3f4b67; }

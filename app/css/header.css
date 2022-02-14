@@ -1,0 +1,40 @@
+/*==========  section header ==========*/
+header {
+  padding: 45px 0 38px;
+  border-bottom: 3px solid rgba(84, 95, 118, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%; }
+  header .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+.links {
+  color: #545f76;
+  font-size: 27px;
+  font-weight: bold; }
+  .links:hover {
+    color: #845a38; }
+
+.logo {
+  max-width: 354px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/*==========  section header end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
