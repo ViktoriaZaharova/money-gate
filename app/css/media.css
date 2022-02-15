@@ -426,9 +426,18 @@
   .links {
     font-size: 22px; }
   .form-wrapper {
-    margin: 40px auto 0; } }
+    margin: 40px auto 0; }
+  .why-box {
+    width: 360px;
+    height: 360px; }
+  .home {
+    padding: 500px 0 120px; }
+  h1 {
+    font-size: 60px; }
+  .author-practice h3 {
+    font-size: 40px; } }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 370px) {
   h2 {
     font-size: 25px; }
   .price-wrapper .subtext {
