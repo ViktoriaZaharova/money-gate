@@ -224,6 +224,7 @@
     margin: 58px auto 89px;
     max-width: 570px; }
   .practice h3 {
+    width: 100%;
     text-align: center;
     text-transform: uppercase;
     margin: 100px auto 55px;
@@ -617,6 +618,13 @@
 
 /*==========  section reviews end  ==========*/
 /*==========  section  ==========*/
+.form-wrapper {
+  width: 100%;
+  margin: 100px auto 0; }
+
+h3 {
+  width: 100%; }
+
 /*==========  section end  ==========*/
 /*==========  section  ==========*/
 /*==========  section end  ==========*/

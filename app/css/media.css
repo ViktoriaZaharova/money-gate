@@ -424,9 +424,11 @@
       width: 100%;
       padding: 0; }
   .links {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .form-wrapper {
+    margin: 40px auto 0; } }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
   h2 {
     font-size: 25px; }
   .price-wrapper .subtext {
@@ -654,7 +656,3 @@
       line-height: 34.5px; }
   .home-figure {
     max-width: 320px; } }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
